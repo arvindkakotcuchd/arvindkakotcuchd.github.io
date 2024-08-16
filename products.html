@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products - E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrQkz5PNU1HFIw1J4g9B5bfY9pypX58/0c/YUihOb9y3whCqNQn0UtK0mEhC0n7xkkg8M06thWqlZDpI8g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html">Digital Mobile Market</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="products" class="products-section">
+            <div class="container">
+                <h2>Our Products</h2>
+                <div class="products-grid">
+                    <div class="product-card">
+                        <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202406/05/gTAo69no5rLOlTVK.png" alt="Product 1">
+                        <h3>Oppo F27 Pro+ 5G</h3>
+                        <p>₹27990.00</p>
+                        <button onclick="addToCart('Product 1', 27990.00)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202402/20/VYh23XynbefcMeYT.png" alt="Product 2">
+                        <h3>Oppo F25 Pro 5G</h3>
+                        <p>₹23990.00</p>
+                        <button onclick="addToCart('Product 2', 23990.00)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202401/03/ej1HHjiNFJgr5duE.png" alt="Product 3">
+                        <h3>Oppo Reno 11 Pro 5G</h3>
+                        <p>₹37990.00</p>
+                        <button onclick="addToCart('Product 3', 37990.00)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202401/03/FmsGOwNtafyTY2BK.png" alt="Product 4">
+                        <h3>Oppo Reno 11 5G</h3>
+                        <p>₹38990.00</p>
+                        <button onclick="addToCart('Product 4', 38990.00)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202302/15/SrtL7TwcCqYXBAln.png" alt="Product 5">
+                        <h3>Oppo Find N2 Flip</h3>
+                        <p>₹97990.00</p>
+                        <button onclick="addToCart('Product 5', 97990.00)">Add to Cart</button>
+                    </div>
+                    
+                    
+                    <div class="product-card">
+                        <img src="https://image.oppo.com/content/dam/oppo/in/mkt/smartphone/product-list/Reno12-silver.png.thumb.webp" alt="Product 6">
+                        <h3>Oppo Reno 12 5G</h3>
+                        <p>₹35990.00</p>
+                        <button onclick="addToCart('Product 2', 35990.00)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://image.oppo.com/content/dam/oppo/in/mkt/smartphone/product-list/Reno12-Pro-gold.png.thumb.webp" alt="Product 7">
+                        <h3>Oppo Reno 12 Pro 5G</h3>
+                        <p>₹39990.00</p>
+                        <button onclick="addToCart('Product 7', 39990.00)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202306/21/6kk6w8hK4WUSb5LZ.png" alt="Product 8">
+                        <h3>Oppo Enco Air 3 Pro</h3>
+                        <p>₹19990.00</p>
+                        <button onclick="addToCart('Product 3', 19990.00)">Add to Cart</button>
+                    </div>
+
+                    <div class="product-card">
+                        <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202406/05/gTAo69no5rLOlTVK.png" alt="Product 1">
+                        <h3>Oppo F27 Pro+ 5G</h3>
+                        <p>₹27990.00</p>
+                        <button onclick="addToCart('Product 1', 27990.00)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202402/20/VYh23XynbefcMeYT.png" alt="Product 2">
+                        <h3>Oppo F25 Pro 5G</h3>
+                        <p>₹23990.00</p>
+                        <button onclick="addToCart('Product 2', 23990.00)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202401/03/ej1HHjiNFJgr5duE.png" alt="Product 3">
+                        <h3>Oppo Reno 11 Pro 5G</h3>
+                        <p>₹37990.00</p>
+                        <button onclick="addToCart('Product 3', 37990.00)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202401/03/FmsGOwNtafyTY2BK.png" alt="Product 4">
+                        <h3>Oppo Reno 11 5G</h3>
+                        <p>₹38990.00</p>
+                        <button onclick="addToCart('Product 4', 38990.00)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202302/15/SrtL7TwcCqYXBAln.png" alt="Product 5">
+                        <h3>Oppo Find N2 Flip</h3>
+                        <p>₹97990.00</p>
+                        <button onclick="addToCart('Product 5', 97990.00)">Add to Cart</button>
+                    </div>
+                    
+                    
+                    <div class="product-card">
+                        <img src="https://image.oppo.com/content/dam/oppo/in/mkt/smartphone/product-list/Reno12-silver.png.thumb.webp" alt="Product 6">
+                        <h3>Oppo Reno 12 5G</h3>
+                        <p>₹35990.00</p>
+                        <button onclick="addToCart('Product 2', 35990.00)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://image.oppo.com/content/dam/oppo/in/mkt/smartphone/product-list/Reno12-Pro-gold.png.thumb.webp" alt="Product 7">
+                        <h3>Oppo Reno 12 Pro 5G</h3>
+                        <p>₹39990.00</p>
+                        <button onclick="addToCart('Product 7', 39990.00)">Add to Cart</button>
+                    </div>
+                    
+                    <div class="product-card">
+                        <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202306/21/6kk6w8hK4WUSb5LZ.png" alt="Product 8">
+                        <h3>Oppo Enco Air 3 Pro</h3>
+                        <p>₹19990.00</p>
+                        <button onclick="addToCart('Product 3', 19990.00)">Add to Cart</button>
+                    </div>          
+                </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My E-Commerce Website</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

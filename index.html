@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - E-Commerce Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrQkz5PNU1HFIw1J4g9B5bfY9pypX58/0c/YUihOb9y3whCqNQn0UtK0mEhC0n7xkkg8M06thWqlZDpI8g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><a href="index.html">Digital Mobile Market</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="cart.html"><i class="fas fa-shopping-cart"></i> Cart</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="home" class="banner">
+            <div class="container">
+                <h2 style="color: #ff00a9c9;">Welcome to Our Store</h2>
+                <p style="color: #a05c01">Discover the best products at unbeatable prices.</p>
+                <a href="products.html" class="btn-in">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="featured-products" class="featured-products">
+            <div class="container">
+                <h2>Featured Products</h2>
+                <div class="product-card">
+                    <img src="https://image.oppo.com/content/dam/oppo/in/mkt/smartphone/product-list/Reno12-Pro-gold.png.thumb.webp" alt="Product 1">
+                    <h3>Oppo Reno 12 Pro 5G</h3>
+                    <p>₹39990.00</p>
+                    <button onclick="addToCart('Product 1', 39990.00)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://image.oppo.com/content/dam/oppo/in/mkt/smartphone/product-list/Reno12-silver.png.thumb.webp" alt="Product 2">
+                    <h3>Oppo Reno 12 5G</h3>
+                    <p>₹35990.00</p>
+                    <button onclick="addToCart('Product 2', 35990.00)">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="https://opsg-img-cdn-gl.heytapimg.com/epb/202306/21/6kk6w8hK4WUSb5LZ.png" alt="Product 3">
+                    <h3>Oppo Enco Air 3 Pro</h3>
+                    <p>₹19990.00</p>
+                    <button onclick="addToCart('Product 3', 19990.00)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+        
+
+        <section id="testimonials" class="testimonials">
+            <div class="container">
+                <h2>Customer Testimonials</h2>
+                <div class="testimonial">
+                    <p>"Great selection of products and excellent customer service. I found exactly what I needed!"</p>
+                    <h3>Ravi Sharma</h3>
+                </div>
+                <div class="testimonial">
+                    <p>"Fast delivery and the products were exactly as described. Highly recommended!"</p>
+                    <h3>Anjali Mehta</h3>
+                </div>
+                <div class="testimonial">
+                    <p>"Excellent quality and affordable prices. Will definitely shop here again."</p>
+                    <h3>Priya Singh</h3>
+                </div>
+            </div>
+        </section>
+
+        <section id="newsletter" class="newsletter">
+            <div class="container">
+                <h2>Subscribe to Our Newsletter</h2>
+                <form>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My E-Commerce Website</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
